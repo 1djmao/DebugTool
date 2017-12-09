@@ -10,8 +10,38 @@
 
     <Button
         android:id="@+id/addlog"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="添加 log"/>
+    <Button
+        android:id="@+id/nullpoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="空指针异常"/>
+    <Button
+        android:id="@+id/new_thread_nullpoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="非主线程异常"/>
+    <Button
+        android:id="@+id/getdevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备信息"/>
+    <Button
+        android:id="@+id/getshardpre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取 shardpreference 信息"/>
+    <Button
+        android:id="@+id/getsetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设置信息"/>
+    <Button
+        android:id="@+id/showlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="展示 log"/>
 
 </LinearLayout>
